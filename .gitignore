@@ -1,0 +1,43 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de ambiente
+.env
+
+# Dados do projeto
+data/bronze/*
+data/extracted/*
+data/silver/*
+data/gold/*
+
+# Mantém estrutura das pastas data
+!data/bronze/.gitkeep
+!data/extracted/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Arquivos temporários
+*.tmp
+*.part
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
